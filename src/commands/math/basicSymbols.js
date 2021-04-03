@@ -263,6 +263,7 @@ LatexCmds.backslash = bind(VanillaSymbol,'\\backslash ','\\');
 if (!CharCmds['\\']) CharCmds['\\'] = LatexCmds.backslash;
 
 LatexCmds.$ = bind(VanillaSymbol, '\\$', '$');
+LatexCmds['#'] = bind(VanillaSymbol, '\\#', '#');
 
 // does not use Symbola font
 var NonSymbolaSymbol = P(Symbol, function(_, super_) {
